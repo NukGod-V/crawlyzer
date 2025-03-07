@@ -33,7 +33,7 @@ graph TD
     E --> F[Hugging Face LLM]
     F --> G[Structured Report]
 ```
-## 🚧 Challenges & Adaptations
+## Challenges & Adaptations
 
 | Challenge                        | Solution Implemented              |
 |----------------------------------|------------------------------------|
@@ -42,7 +42,7 @@ graph TD
 | **Result Relevance**             | Developed scoring filter: `score > 0.7` |
 | **Rate Limiting**                | Added 2s delay between API calls  |
 
-## ⚠️ Current Limitations
+## Current Limitations
 
 | Limitation                      | Impact                              | Technical Cause                     |
 |---------------------------------|-------------------------------------|--------------------------------------|
@@ -50,7 +50,7 @@ graph TD
 | **500-Character Truncation**    | Potential context loss              | LLM token limits (falcon-7b)         |
 | **Single-Pass Generation**      | No iterative refinement             | Linear LangGraph workflow            |
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ```bash
 # 1. Clone repository
