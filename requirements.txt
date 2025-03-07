@@ -1,0 +1,5 @@
+tavily-python>=0.3.0 
+huggingface-hub>=0.22.0
+langgraph>=0.0.22
+jupyter>=1.0.0
+python-dotenv>=1.0.0
