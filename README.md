@@ -62,3 +62,19 @@ pip install -r requirements.txt
 # 3. Configure environment
 cp sample.env .env
 ```
+## 👥 Contributing
+
+We welcome contributions! Please follow these guidelines:
+
+### How to Contribute
+1. **Fork** the repository
+2. Create a feature branch:
+   ```bash
+   git checkout -b feat/your-feature-name
+   #Commit your changes:
+
+   git commit -m "feat: add new validation logic"
+   #Push to your fork:
+
+   git push origin feat/your-feature-name
+   #Open a Pull Request against the main branch
